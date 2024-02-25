@@ -104,7 +104,6 @@ void StrList_insertAt(StrList* StrList, const char* data, int index) {
         current->_next = newNode;
         StrList->_size++; // Update the size of the list
     }
-    
 }
 
 /* Returns the StrList first data. */
