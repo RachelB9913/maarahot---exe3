@@ -86,19 +86,6 @@ int main(){
                 printf("false\n");
             }
         }
-        else if(chosen_num==14){
-            StrList* copied = StrList_alloc();
-            char* first = StrList_firstData(list);
-            printf("the first data is %s",first);
-            copied = StrList_clone(list);
-            int isEqual = StrList_isEqual(list,copied);
-            if(isEqual){
-                printf("the lists are the same ");
-            }
-            else{
-                printf("the lists are different");
-            }
-        }
     } 
     return 0;
 }
